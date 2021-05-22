@@ -36,6 +36,14 @@ section .card{
     transition: background 0.5s;
 }
 
+#heading{
+    position: absolute;
+    top: 20px;
+    font-family: fontAwesome;
+    color: #2fa1ff;
+    display: flex;
+}
+
 section.dark .card{
     background: #323840;
 }
@@ -86,7 +94,8 @@ section.dark .card .imgtext h3 span{
 
 section .card .sci{
     display: flex;
-    margin-top: 15px;
+    margin-top: 40px;
+    margin-bottom: -40px;
 }
 
 section .card .sci li{
@@ -138,8 +147,8 @@ section .card .sci li a:hover:before{
 
 .toggle{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 10px;
     background: #e9f5ff;
     width: 30px;
     height: 30px;
